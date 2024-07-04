@@ -1,0 +1,35 @@
+.Header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+
+.ClubList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.ClubItem {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.ClubItem img {
+  width: 60px;
+  height: 60px;
+}
+
+.ClubItem:hover {
+  transform: scale(1.05);
+}
